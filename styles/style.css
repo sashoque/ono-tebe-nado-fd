@@ -9,15 +9,15 @@
   max-width: 390px;
   max-height: 22px;
   font-size: 18px;
-  line-height: ;
-  font-weight: ;
+  line-height: 100%;
+  font-weight: 400;
 }
 
 .header-links-list {
   display: flex;
   justify-content: space-between;
   list-style: circle;
-  list-style-position: outside;      /* Как выровнять буллит??? */
+  list-style-position: outside;
 }
 
 .link-no-bullit {
@@ -39,7 +39,6 @@
 
 .address {
   max-height: 98px;
-  line-height: 24px;
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
@@ -104,7 +103,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .cover-description-text {
@@ -112,12 +110,12 @@
 }
 
 .cover-description-button {
-  border: 1px solid;
   width: 256px;
   height: 51px;
   text-transform: uppercase;
   color: #fff;
-  background-color: transparent; 
+  background-color: transparent;
+  border: 1px solid;
   border-color: #fff;
 }
 
