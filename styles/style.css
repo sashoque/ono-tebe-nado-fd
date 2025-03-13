@@ -7,9 +7,8 @@
 
 .header-menu {
   max-width: 390px;
-  max-height: 22px;
   font-size: 18px;
-  line-height: 100%;
+  line-height: 135%;
   font-weight: 400;
 }
 
@@ -24,12 +23,12 @@
   list-style: none;
 }
 
-.link-active {
-  text-decoration: none;
+.link-style {
+  text-underline-offset: 4px;
 }
 
-.link-text-underline-offset {
-  text-underline-offset: 4px;
+.link-active {
+  text-decoration: none;
 }
 
 .header-logo {
@@ -38,10 +37,9 @@
 }
 
 .address {
-  max-height: 98px;
   font-style: normal;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 135%;
   font-weight: 400;
 }
 
@@ -51,48 +49,55 @@
 }
 
 .cover {
-  height: 757px;
+  padding-bottom: 50px;
   margin-bottom: 180px;
   position: relative;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .overlay {
+  position: absolute;
+  inset: 0;
   background-color: rgb(0 0 0 / 0.6);
-  height: 100%;
-  }
+  z-index: 0;
+}
 
 .main-title {
+  position: relative;
   font-size: 100px;
   line-height: 130%;
   letter-spacing: 30px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
-  width: 1000px;
+  max-width: 1000px;
   align-items: center;
   padding-top: 160px;
   margin-bottom: 106px;
-}
-
-.main-title-top-line {
-  margin-bottom: 20px;
   margin-left: 50px;
 }
 
+.main-title-top-line {
+  display: block;
+  text-align: left;
+}
+
 .main-title-mid-line {
-  padding-top: 300px;
-  margin-left: 380px;
+  display: block;
+  text-align: center;
+  margin-right: -0.3em;
 }
 
 .main-title-bottom-line {
-  padding-top: 435px;
-  margin-left: 663px;
+  display: block;
+  text-align: right;
+  margin-right: -0.3em;
 }
 
 .cover-description {
+  position: relative;
   font-size: 22px;
   line-height: 28px;
   font-weight: 400;
@@ -130,8 +135,8 @@
   line-height: 100%;
   font-weight: 700;
   text-transform: uppercase;
-  width: 121px;
-  height: 47px;
+  max-width: 121px;
+  width: 100%;
   padding-left: 40px;
   margin-bottom: 27px;
 }
@@ -141,14 +146,15 @@
   display: flex;
   gap: 25px;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .lots-list-item {
   width: 334px;
   min-height: 596px;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  /*flex-direction: column;*/
+  flex-grow: 1;
 }
 
 .lot-link {
@@ -174,30 +180,28 @@
   text-transform: uppercase;
   text-decoration: underline;
   text-underline-offset: 4px;
+  z-index: 1;
 }
 
 .article-body {
   font-size: 20px;
   line-height: 120%;
   font-weight: 400;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
 }
 
 .lot-movie {
-  background-image: url(/images/card-lot-01.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .lot-book {
-  background-image: url(/images/card-lot-02.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .lot-art {
-  background-image: url(/images/card-lot-03.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .lots-look-more-link {

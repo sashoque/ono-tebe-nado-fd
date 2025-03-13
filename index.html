@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/fonts/fonts.css">
-    <link rel="stylesheet" href="/styles/global.css">
-    <link rel="stylesheet" href="/styles/style.css"> 
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css"> 
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
@@ -14,74 +14,70 @@
       <nav class="header-menu">
         <ul class="header-links-list">
           <li class="link-no-bullit">
-            <a class="link-active" href="#0">главная</a>
+            <a class="link-style link-active" href="#0">главная</a>
           </li>
           <li>
-            <a class="link-text-underline-offset" href="#0">посмотреть лоты</a>
+            <a class="link-style" href="#0">посмотреть лоты</a>
           </li>
           <li>
-            <a class="link-text-underline-offset" href="#0">об аукционе</a>
+            <a class="link-style" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
       <a href="#0">
-        <img alt="logo-black" src="/images/logo-black.svg" class="header-logo">
+        <img alt="logo-black" src="./images/logo-black.svg" class="header-logo">
       </a>
       <address class="address header-address">
-        <a href="tel:+99995555555" class="link-text-underline-offset">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge" class="link-text-underline-offset">info@sobaka.ge</a>
+        <a href="tel:+99995555555" class="link-style">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="link-style">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-<br>265, Амстердам</p>
       </address>
     </header>
     <main>
       <section class="cover">
-        <div class="overlay">
-          <h1 class="main-title">
-            <span class="main-title-top-line">Оно</span><br>
-            <span class="main-title-mid-line">Тебе</span><br>
-            <span class="main-title-bottom-line">Надо</span>
-          </h1>
-          <div class="cover-description">
-            <p class="cover-description-text">Аукцион вещей, в которые никто не верил</p>
-            <button class="cover-description-button">Сделать ставку</button>
-          </div>
+        <div class="overlay"></div>
+        <h1 class="main-title">
+          <span class="main-title-top-line">Оно</span>
+          <span class="main-title-mid-line">Тебе</span>
+          <span class="main-title-bottom-line">Надо</span>
+        </h1>
+        <div class="cover-description">
+          <p class="cover-description-text">Аукцион вещей, в которые никто не верил</p>
+          <button type="button" class="cover-description-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
-        <h3 class="lots-title">Лоты</h3>
-        <ul class="lots-list">
-          <li class="lots-list-item">
-            <a class="lot-link lot-movie" href="#0">
-              <div class="overlay">
-                <article class="article">
-                  <h4 class="article-title">Фильм режиссёра, который бросил киношколу</h4>
-                  <p class="article-body">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
-                </article>
-              </div>
+        <h2 class="lots-title">Лоты</h2>
+        <ul class="lots-list">          
+          <li class="lots-list-item">            
+            <a class="lot-link" href="#0">              
+              <article class="article lot-movie">
+                <div class="overlay"></div>                
+                <h3 class="article-title">Фильм режиссёра, который бросил киношколу</h3>
+                <p class="article-body">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+              </article>              
+            </a>
+          </li>
+          <li class="lots-list-item">           
+            <a class="lot-link" href="#0">              
+              <article class="article lot-book">
+                <div class="overlay"></div>
+                <h3 class="article-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                <p class="article-body">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+              </article>              
             </a>
           </li>
           <li class="lots-list-item">
-            <a class="lot-link lot-book" href="#0">
-              <div class="overlay">
-                <article class="article">
-                  <h4 class="article-title">Книга, где описан один скучный день из жизни рекламного агента</h4>
-                  <p class="article-body">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-                </article>
-              </div>
-            </a>
-          </li>
-          <li class="lots-list-item">
-            <a class="lot-link lot-art" href="#0">
-              <div class="overlay">
-                <article class="article">
-                  <h4 class="article-title">Картина, которую повторит даже 5-летний сын маминой подруги</h4>
-                  <p class="article-body">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-                </article>
-              </div>
+            <a class="lot-link" href="#0">              
+              <article class="article lot-art">
+                <div class="overlay"></div>
+                <h3 class="article-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                <p class="article-body">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+              </article>              
             </a>
           </li>
         </ul>
-        <a class="lots-look-more-link" href="#0">посмотреть больше</a>
+        <a class="link-style lots-look-more-link" href="#0">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about-logo-backroung">  
@@ -90,7 +86,7 @@
           </a>
         </div>
         <article class="about-text">
-          <h3 class="about-text-heading">Об аукционе</h3>
+          <h2 class="about-text-heading">Об аукционе</h2>
             <p class="about-text-body">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
             <p class="about-text-body">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
           на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
@@ -99,37 +95,37 @@
     </main>
     <footer class="footer">
       <address class="address footer-address">
-        <a href="tel:+99995555555" class="link-text-underline-offset">+9 999 555 5555</a><br>
-        <a href="mailto:info@sobaka.ge" class="link-text-underline-offset">info@sobaka.ge</a>
+        <a href="tel:+99995555555" class="link-style">+9 999 555 5555</a><br>
+        <a href="mailto:info@sobaka.ge" class="link-style">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav>
-        <ul class="nav link-no-bullit">
+        <nav class="nav link-no-bullit">
           <li class="link-no-bullit">
-            <a class="link-active" href="#0">главная</a>
+            <a class="link-style link-active" href="#0">главная</a>
           </li>
           <li>
-            <a class="link-text-underline-offset" href="#0">посмотреть лоты</a>
+            <a class="link-style" href="#0">посмотреть лоты</a>
           </li>
           <li>
-            <a class="link-text-underline-offset" href="#0">об аукционе</a>
+            <a class="link-style" href="#0">об аукционе</a>
           </li>
-        </ul>
+        </nav>
       </nav>
       <ul class="social-media link-no-bullit">
         <li>
           <a href="http://www.youtube.com/" target="_blank">
-            <img alt="youtube-logo" src="/images/yt.svg" class="social-media-logo">
+            <img alt="youtube-logo" src="./images/yt.svg" class="social-media-logo">
           </a>
         </li>
         <li>
           <a href="https://vk.com/" target="_blank">
-            <img alt="vk" src="/images/vk.svg" class="social-media-logo">
+            <img alt="vk-logo" src="./images/vk.svg" class="social-media-logo">
           </a>
         </li>
         <li>
           <a href="https://pinterest.com" target="_blank">
-            <img alt="pinterest-logo" src="/images/pinterest.svg" class="social-media-logo">
+            <img alt="pinterest-logo" src="./images/pinterest.svg" class="social-media-logo">
           </a>
         </li>
       </ul>
