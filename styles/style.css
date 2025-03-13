@@ -8,7 +8,7 @@
 .header-menu {
   max-width: 390px;
   font-size: 18px;
-  line-height: 135%;
+  line-height: 120%;
   font-weight: 400;
 }
 
@@ -50,7 +50,7 @@
 
 .cover {
   padding-bottom: 50px;
-  margin-bottom: 180px;
+  margin-bottom: 185px;
   position: relative;
   background-image: url(../images/cover.jpg);
   background-size: cover;
@@ -160,7 +160,6 @@
 .lot-link {
   height: 100%;
   text-decoration: none;
-  z-index: 10;
 }
 
 .article {
@@ -272,13 +271,17 @@
   justify-self: start;
 }
 
-.nav {
+.footer-menu {
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 400;
+}
+
+.footer-links-list {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  font-size: 18px;
-  line-height: 100%;
-  font-weight: 400;
 }
 
 .social-media {
